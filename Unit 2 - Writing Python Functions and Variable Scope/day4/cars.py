@@ -195,3 +195,10 @@ def print_totals(total_cars, total_peds, avg_bikes):
     # Returns: None
     print() # replace print with your code
 
+ob1 = get_observation(observations,3)
+print(get_observation_cars(ob1))
+
+print(f"Total pedestrians: {get_total_pedestrians(observations)}")
+
+
+
