@@ -1,7 +1,7 @@
 age = 17
 is_teen_low = age >= 13
 is_teen_high = age <= 19
-print(is_teen_low and is_teen_high)
+print(is_teen_low and is_teen_high)     # True
 
 
 
@@ -18,8 +18,8 @@ print(word[:3].lower() == "pro" and word[-3:].lower() == "ing")
 pressure = 198
 max_pressure = 200
 min_pressure = 120
-print(pressure >= min_pressure and pressure <= max_pressure)
+print(pressure >= min_pressure and pressure <= max_pressure) # True
 
 
 message = "Disk ERROR: temp high"
-print("error" in message.lower() and "ignored" not in message.lower())
+print("error" in message.lower() and not("ignored" in message.lower())) 
