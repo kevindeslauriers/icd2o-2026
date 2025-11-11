@@ -1,5 +1,15 @@
 # 1) Temperature classifier (°C):
 #    Print one of: cold (<0), cool (0–15), warm (16–25), hot (>25) based on temp_c.
+temp_c = 23
+if temp_c < 0:
+    print("cold")
+elif temp_c < 15:
+    print("cool")
+elif temp_c < 25:
+    print("warm")
+else:
+    print("hot")
+
 
 # 2) Letter grades:
 #    Print A (90+), B (80–89), C (70–79), D (60–69), or F (<60) based on percent.
